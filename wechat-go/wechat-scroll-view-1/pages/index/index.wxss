@@ -1,0 +1,26 @@
+/**index.wxss**/
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+  width: 300rpx;
+}
+.bc-green{
+  background-color: green;
+}
+.bc-red{
+  background-color: red;
+}
+.bc-blue{
+  background-color: blue;
+}
+
+.scroll-view-item_H{
+  display: inline-block;
+  width: 300rpx;
+  height: 300rpx;
+}

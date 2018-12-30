@@ -1,0 +1,26 @@
+<!--index.wxml-->
+
+  <view class="page-section-title">
+    <text>Vertical Scroll\n纵向滚动</text>
+  </view>
+
+  <view class="page-section-spacing">
+    <scroll-view scroll-y="true" style="height: 330rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+      <view  class="scroll-view-item bc-green">1</view>
+      <view  class="scroll-view-item bc-red">2</view>
+      <view  class="scroll-view-item bc-blue">3</view>
+    </scroll-view>
+  </view>
+
+  <view class="page-section-title">
+    <text>horizontal Scroll\n横向滚动</text>
+  </view>
+
+  <view class="page-section-spacing">
+    <scroll-view class="scroll-view_H" bindscroll="scroll" scroll-x="true"  style="width: 330rpx">
+      <view  class="scroll-view-item_H bc-green">1</view>
+      <view  class="scroll-view-item_H bc-red">2</view>
+      <view  class="scroll-view-item_H bc-blue">3</view>
+    </scroll-view>
+  </view>
+

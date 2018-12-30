@@ -1,0 +1,11 @@
+/**index.wxss**/
+
+.swiper{
+  height: 6000rpx;
+}
+
+.swiper-item{
+  background-color: red;
+  width: 500rpx;
+  height: 1600rpx;
+}
